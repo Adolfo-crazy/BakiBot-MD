@@ -9,8 +9,8 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Baneado/i
+handler.customPrefix = /Baneado/
 handler.command = new RegExp
-handler.fail = null
-handler.exp = 100
 export default handler
+
+
