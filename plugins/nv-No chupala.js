@@ -9,7 +9,8 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /No chupala/
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /No chupala/
+handler.command = new RegExp
 export default handler
+
+
