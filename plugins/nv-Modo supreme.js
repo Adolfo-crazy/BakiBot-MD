@@ -9,7 +9,8 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /Modo supreme/
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /Modo supreme/
+handler.command = new RegExp
 export default handler
+
+
