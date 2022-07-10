@@ -7,7 +7,7 @@ import fs from 'fs'
 global.owner = [
   ['528451003894', '𝐀𝐝𝐨𝐥𝐟𝐨 𝐙𝐚𝐫𝐚𝐠𝐨𝐳𝐚', true],
   ['15302318984', '𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷', true],
-  ['528451003894']
+  ['5272264444010']
 ] // Cambia los numeros que quieras
 global.mods = [] 
 global.prems = [] 
@@ -69,7 +69,7 @@ global.author = '𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷'
 
 global.wm = '𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷'
 global.igfg = '𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷'
-global.wait = '*Espera un momento gil..._ ▬▬▬▭*'
+global.wait = '*⌛ _Cargando..._ ▬▬▬▭*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
