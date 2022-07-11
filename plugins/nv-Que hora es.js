@@ -9,7 +9,8 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /Que hora es|A que hora son/
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /Que hora es|A que hora son/
+handler.command = new RegExp
 export default handler
+
+
