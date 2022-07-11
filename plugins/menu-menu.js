@@ -6,7 +6,7 @@ import { join } from 'path'
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text }) => {
 try {
 let vn = './media/menu.mp3'
-let pp = './Menu2.jpg'
+let pp = './Menu2.mp4'
 let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
 let { exp, limit, level, role } = global.db.data.users[m.sender]
 let { min, xp, max } = xpRange(level, global.multiplier)
@@ -330,6 +330,68 @@ let str = `
 _(uso sin prefijo)_
 
 °✯⃟🔊 _A_
+°✯⃟🔊 _Ara ara_
+°✯⃟🔊 _Baneado_
+°✯⃟🔊 _Basado_
+°✯⃟🔊 _Buenos dias_
+°✯⃟🔊 _Buenas tardes_ 
+°✯⃟🔊 _Buenas noches_
+°✯⃟🔊 _Cada dia mas fichero_
+°✯⃟🔊 _Calla fan de bts_
+°✯⃟🔊 _Corte_
+°✯⃟🔊 _Culos asi_
+°✯⃟🔊 _Despierta dormilon_
+°✯⃟🔊 _Eh_
+°✯⃟🔊 _Eso me sorprende_
+°✯⃟🔊 _Estas celoso_
+°✯⃟🔊 _Evita ser humillado_
+°✯⃟🔊 _Fiesta del admin_
+°✯⃟🔊 _Gemido_
+°✯⃟🔊 _Hay lo note bro_
+°✯⃟🔊 _Hola_
+°✯⃟🔊 _Jesucristo_
+°✯⃟🔊 _Joder_
+°✯⃟🔊 _Me los voy a coger_
+°✯⃟🔊 _Modo supreme_
+°✯⃟🔊 _Mi bebito fiu fiu_
+°✯⃟🔊 _No chupala_
+°✯⃟🔊 _No digas mamadas meriyen_
+°✯⃟🔊 _No estes triste_
+°✯⃟🔊 _No lo se rick_
+°✯⃟🔊 _Nuevo mensaje_
+°✯⃟🔊 _Oh un pito_
+°✯⃟🔊 _ooo tio_
+°✯⃟🔊 _Onichan_
+°✯⃟🔊 _Ovedece sempai_
+°✯⃟🔊 _Pasito raw_
+°✯⃟🔊 _Por favor escuchen_
+°✯⃟🔊 _Por favor kakaroto_
+°✯⃟🔊 _Por que nadie me quiere_
+°✯⃟🔊 _Quitate la ropa piter_
+°✯⃟🔊 _Salaverga_
+°✯⃟🔊 _Sayayin_
+°✯⃟🔊 _Se estan riendo de mi_
+°✯⃟🔊 _Sexo_
+°✯⃟🔊 _Sigue de mamon_
+°✯⃟🔊 _Silencio_
+°✯⃟🔊 _Siuuu_
+°✯⃟🔊 _Su nivel de pendejo_
+°✯⃟🔊 _Solo entendi_
+°✯⃟🔊 _Te amo_
+°✯⃟🔊 _Tengo una mexicana_
+°✯⃟🔊 _Todo bien_
+°✯⃟🔊 _Troll_
+°✯⃟🔊 _Traiganle una falda_
+°✯⃟🔊 _Tunomecabrasaramambiche_
+°✯⃟🔊 _Usted esta detenido_
+°✯⃟🔊 _Viernes_
+°✯⃟🔊 _Wtf y este quien poronga es_
+°✯⃟🔊 _Yametekudasai_
+°✯⃟🔊 _Yoshi_
+
+*VIDEOS RANDOM*
+°✯⃟🎥 _Video1_
+°✯⃟🎥 _Momento XD_°✯⃟🔊 _A_
 °✯⃟🔊 _Ara ara_
 °✯⃟🔊 _Baneado_
 °✯⃟🔊 _Basado_
