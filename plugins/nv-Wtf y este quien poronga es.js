@@ -9,7 +9,8 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /Wtf y este quien poronga es/
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /Wtf y este quien poronga es/
+handler.command = new RegExp
 export default handler
+
+
