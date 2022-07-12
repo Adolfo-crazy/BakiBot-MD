@@ -7,8 +7,8 @@ try {
 let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
 const url = 'https://www.youtube.com/watch?v=' + videoId
 conn.sendHydrated(m.chat, `
-📌 *TITULO:* ${title}
-🤓 *DESCRIPCION:* ${description}
+✍️ *TITULO:* ${title}
+👨‍💻 *DESCRIPCION:* ${description}
 📆 *PUBLICADO:* ${publishedTime}
 ⏳ *DURACION:* ${durationH}
 👀 *VISTAS:* ${viewH}
