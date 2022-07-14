@@ -9,7 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /Por favor kakaroto/
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /Por favor kakaroto/
+handler.command = new RegExp
 export default handler
