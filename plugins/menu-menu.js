@@ -63,14 +63,14 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-╔══════════❲𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷❳════════════════════╗
+╔══════════❲𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷❳═══════
 ║*👋 Hola ${name}, AQUI ESTA EL MENU COMPLETO*
 ║                                                         
-╟══════════════════════════════════════╝
+╟══════════════════════════
 ╟➢*📅 FECHA: ${week}, ${date}*
 ╟➢*🕕 TIEMPO ACTIVO: ${uptime}*
 ╟➢*👥 USUARIOS: ${rtotalreg}*
-╟═══════════════════════
+╟══════════════════════
 ╟➢ _${usedPrefix}grupos_
 ╟➢_${usedPrefix}estado_
 ╟➢_${usedPrefix}infobot_
@@ -79,13 +79,13 @@ let str = `
 ╟➢_${usedPrefix}owner_
 ╟➢_${usedPrefix}script_
 ╟➢_Bot_ (uso sin prefijo)*
-╚════════════════════════
+╚═══════════════════════
 
-╔═══❲*UNE UN BOT A TU GRUPO GAY*❳╾╾
+╔══❲*UNE UN BOT A TU GRUPO GAY*❳
 ╟➢_${usedPrefix}join *<enlace / link / url>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*JUEGOS*❳╾╾╾╾╾╾╾╾╾
+╔════❲*JUEGOS*❳
 ╟➢️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
 ╟➢️ _${usedPrefix}ppt *<papel / tijera /piedra>*_
 ╟➢️ _${usedPrefix}prostituto *<nombre / @tag>*_
@@ -110,9 +110,9 @@ let str = `
 ╟➢️ _${usedPrefix}formarpareja_
 ╟➢️ _${usedPrefix}verdad_
 ╟➢️ _${usedPrefix}reto_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*ACTIVAR O DESACTIVAR*❳╾╾
+╔════❲*ACTIVAR O DESACTIVAR*❳
 ╟➢ _${usedPrefix}enable *welcome*_
 ╟➢ _${usedPrefix}disable *welcome*_
 ╟➢ _${usedPrefix}enable *modohorny*_
@@ -127,13 +127,13 @@ let str = `
 ╟➢ _${usedPrefix}disable *audios*_
 ╟➢ _${usedPrefix}enable *autosticker*_
 ╟➢ _${usedPrefix}disable *autosticker*_
-╚════════════════════════
+╚═══════════════════════
 
-╔════❲*REPORTES Y FALLOS*❳╾╾╾╾
+╔═══❲*REPORTES Y FALLOS*❳
 ╟➢  _${usedPrefix}reporte *<texto>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*DESCARGAS*❳╾╾╾╾
+╔════❲*DESCARGAS*❳
 ╟➢ _${usedPrefix}facebook *<enlace / link / url>*_
 ╟➢ _${usedPrefix}instagram *<enlace / link / url>*_
 ╟➢ _${usedPrefix}mediafire *<enlace / link / url>*_
@@ -162,9 +162,9 @@ let str = `
 ╟➢ _${usedPrefix}igstalk *<nombre de usuario>*_
 ╟➢ _${usedPrefix}igstory *<nombre de usuario>*_
 ╟➢ _${usedPrefix}tiktokstalk *<nombre de usuario>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*GRUPOS*❳╾╾╾╾╾╾╾╾╾
+╔════❲*GRUPOS*❳
 ╟➢ _${usedPrefix}add *<numero>*_
 ╟➢ _${usedPrefix}kick *<@tag>*_
 ╟➢ _${usedPrefix}grupo *<abrir / cerrar>*_
@@ -180,17 +180,18 @@ let str = `
 ╟➢ _${usedPrefix}setwelcome *<texto>*_
 ╟➢ _${usedPrefix}setbye *<texto>*_
 ╟➢ _${usedPrefix}hidetag *<texto>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*CONVERTIDORES*❳╾╾╾╾╾╾
+╔════❲*CONVERTIDORES*❳
 ╟➢ _${usedPrefix}toimg *<responde a un sticker>*_
 ╟➢ _${usedPrefix}tomp3 *<responde a un video / nota de voz>*_
 ╟➢ _${usedPrefix}toptt *<responde a un video / audio>*_
 ╟➢ _${usedPrefix}tovideo *<responde a un audio>*_
 ╟➢ _${usedPrefix}tourl *<responde a un video / imagen / audio>*_
 ╟➢ _${usedPrefix}tts es *<texto>*_
+╚═══════════════════════
 
-╔════❲*EFECTOS Y LOGOS*❳╾╾╾╾╾╾
+╔═══❲*EFECTOS Y LOGOS*❳
 ╟➢  _${usedPrefix}logos *<efecto> <texto>*_
 ╟➢  _${usedPrefix}logocorazon *<texto>*_
 ╟➢  _${usedPrefix}logochristmas *<texto>*_
@@ -201,9 +202,9 @@ let str = `
 ╟➢  _${usedPrefix}itssostupid_
 ╟➢  _${usedPrefix}pixelar_
 ╟➢  _${usedPrefix}blur_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*RANDOM*❳╾╾╾╾╾╾╾╾╾╾
+╔════❲*RANDOM*❳
 ╟➢ _${usedPrefix}cristianoronaldo_
 ╟➢ _${usedPrefix}messi_
 ╟➢ _${usedPrefix}meme_
@@ -251,9 +252,9 @@ let str = `
 ╟➢ _${usedPrefix}sasuke_
 ╟➢ _${usedPrefix}sakura_
 ╟➢ _${usedPrefix}cosplay_
-╚════════════════════════
+╚═══════════════════════
 
-╔═══❲*COMANDOS NOPOR +18*❳╾╾╾
+╔══❲*COMANDOS NOPOR +18*❳
 ╟➢ _${usedPrefix}pack_
 ╟➢ _${usedPrefix}pack2_
 ╟➢ _${usedPrefix}pack3_
@@ -285,9 +286,9 @@ let str = `
 ╟➢ _${usedPrefix}nsfwero_
 ╟➢ _${usedPrefix}nsfwfemdom_
 ╟➢ _${usedPrefix}nsfwglass_
-╚════════════════════════
+╚═══════════════════════
 
-╔══════❲*EFECTOS DE AUDIOS*❳╾╾╾
+╔═════❲*EFECTOS DE AUDIOS*❳
 ╟🤖 *- RESPONDE A UN AUDIO O NOTA DE VOZ*
 ╟➢ _${usedPrefix}bass_
 ╟➢ _${usedPrefix}blown_
@@ -301,15 +302,15 @@ let str = `
 ╟➢ _${usedPrefix}slow_
 ╟➢ _${usedPrefix}smooth_
 ╟➢ _${usedPrefix}tupai_
-╚════════════════════════
+╚═══════════════════════
 
-╔════❲*CHAT ANONIMO*❳╾╾╾╾╾╾╾
+╔═══❲*CHAT ANONIMO*❳
 ╟➢ _${usedPrefix}start_
 ╟➢ _${usedPrefix}next_
 ╟➢ _${usedPrefix}leave_
-╚════════════════════════
+╚═══════════════════════
 
-╔══════❲*BUSCADORES*❳╾╾╾╾╾╾╾
+╔═════❲*BUSCADORES*❳
 ╟➢ _${usedPrefix}xnxxsearch *<texto>*_
 ╟➢ _${usedPrefix}animeinfo *<texto>*_
 ╟➢ _${usedPrefix}google *<texto>*_
@@ -325,8 +326,8 @@ let str = `
 ╟➢ _${usedPrefix}revdl *<texto>*_
 ╟➢ _${usedPrefix}toraccino *<texto>*_
 ╟➢ _${usedPrefix}uapkpro *<texto>*_
-╚════════════════════════
-╔═════❲*AUDIOS RANDOM*❳╾╾╾╾╾
+╚═══════════════════════
+╔════❲*AUDIOS RANDOM*❳
 ╟➢ *ESCRIBE EL TEXTO SIN USAR LO SIGUIENTE  (#, /, *, .),(uso sin prefijo)*
 ╟➢ _A_
 ╟➢ _Ara ara_
@@ -385,14 +386,14 @@ let str = `
 ╟➢ _Wtf y este quien poronga es_
 ╟➢ _Yametekudasai_
 ╟➢ _Yoshi_
-╚════════════════════════
+╚═══════════════════════
 
-╔════❲*VIDEOS RANDOM*❳╾╾╾╾╾╾
+╔═══❲*VIDEOS RANDOM*❳
 ╟➢ _Video1_
 ╟➢ _Momento XD_
-╚════════════════════════
+╚══════════════════════
 
-╔═════❲*HERRAMIENTAS*❳╾╾╾╾╾╾
+╔════❲*HERRAMIENTAS*❳
 ╟➢️ _${usedPrefix}afk *<motivo>*_
 ╟➢️ _${usedPrefix}acortar *<enlace / link / url>*_
 ╟➢️ _${usedPrefix}calc *<operacion math>*_
@@ -402,9 +403,9 @@ let str = `
 ╟➢️ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
 ╟➢️ _${usedPrefix}styletext *<texto>*_
 ╟➢️ _${usedPrefix}traducir *<texto>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔══════❲*RPG - LIMITES - ECONOMIA*❳╾╾╾╾
+╔═════❲*RPG-LIMITES-ECONOMIA*❳
 ╟➢ _${usedPrefix}balance_
 ╟➢ _${usedPrefix}claim_
 ╟➢ _${usedPrefix}top_
@@ -418,9 +419,9 @@ let str = `
 ╟➢ _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 ╟➢ _${usedPrefix}verificar_
 ╟➢ _${usedPrefix}unreg *<numero de serie>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔═══════❲*STICKERS*❳╾╾╾╾╾╾╾╾
+╔══════❲*STICKERS*❳
 ╟➢_${usedPrefix}sticker *<responder a imagen o video>*_
 ╟➢_${usedPrefix}sticker *<enlace / link / url>*_
 ╟➢_${usedPrefix}s *<responder a imagen o video>*_
@@ -442,9 +443,9 @@ let str = `
 ╟➢_${usedPrefix}wm *<packname> <author>*_
 ╟➢_${usedPrefix}stickermarker *<efecto> <responder a imagen>*_
 ╟➢_${usedPrefix}stickerfilter *<efecto> <responder a imagen>*_
-╚════════════════════════
+╚═══════════════════════
 
-╔═════❲*OWNER Y MODERADOR*❳╾╾╾╾
+╔════❲*OWNER Y MODERADOR*❳
 ╟➢ _${usedPrefix}cajafuerte_
 ╟➢ _${usedPrefix}enable *restrict*_
 ╟➢ _${usedPrefix}disable *restrict*_
