@@ -4,12 +4,6 @@
 <a href="http://wa.me/528451003894" target="blank"><img src="https://img.shields.io/badge/ADOLFO_SEMPAI-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
-### `DONAR`
-- AGRADECE CON UNA DONACION VOLUNTARIA [Aqui](https://www.paypal.me/TheShadowBrokers133)
-
-### `LETRA DEL BOT`
-- PAGINA USADA PARA LA LETRA [Aqui](https://smiley.cool/es/weirdmaker.php)
-
 ### `ACTIVAR EN HEROKU`
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adolfo-crazy/BakiBot-MD)
 ```bash
@@ -22,14 +16,12 @@ AÑADE AL APARTADO DE BUILPACK LO SIGUIENTE, SI YA APARCEN SOLO IGNORA ESTA PART
 ADVERTENCIA: HEROKU ESTA SUSPENDIENDO CUENTAS POR SOLO USAR EL BOT, POR AHORA NO ES RECOMENDABLE USAR EL BOT EN HEROKU!
 ```
 
-### `—◉ ⚙️ AJUSTES ⚙️`
-- CLONAR EL REPOSITORIO [Aqui](https://github.com/Adolfo-crazy/BakiBot-MD/fork)
+### `AJUSTES`
 - CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/Adolfo-crazy/BakiBot-MD/blob/master/config.js)
 
 ### `INSTALAR EN TERMUX`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd
 > termux-setup-storage
 > apt update 
 > apt upgrade -y
@@ -49,15 +41,13 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ### `EN CASO K SE DETENGA O SE CIERRE TERMUX`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
 > cd BakiBot-MD
 > npm start
 ```
 
-### `PARA OBTENER CODIGO QR`
+### `PARA OBTENER CODIGO QR NUEVO`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd 
 > cd BakiBot-MD
 > rm -rf session.data.json
 > npm start
