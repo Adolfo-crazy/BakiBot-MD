@@ -54,5 +54,5 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ## `PORPIETARIO DEL BOT` 
-[![ADOLFO ZARAGOZA](https://raw.githubusercontent.com/Adolfo-crazy/BakiBot-MD/main/media/menus/Menu2.jpg)](git clone https://github.com/Adolfo-crazy/BakiBot-MDV2.git)
+[![ADOLFO ZARAGOZA](https://raw.githubusercontent.com/Adolfo-crazy/BakiBot-MD/main/media/menus/Menu2.mp4)](git clone https://github.com/Adolfo-crazy/BakiBot-MDV2.git)
 ```bash
