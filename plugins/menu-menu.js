@@ -63,14 +63,14 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
     
 
 let str = `
-╔══════════❲𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷❳═══════
+╔═══════❲𝐵𝑎𝑘𝑖𝐵𝑜𝑡-𝑀𝐷❳═══════
 ║*👋 Hola ${name}, AQUI ESTA EL MENU COMPLETO*
 ║                                                         
-╟══════════════════════════
+╟═════════════════════
 ╟➢*📅 FECHA: ${week}, ${date}*
 ╟➢*🕕 TIEMPO ACTIVO: ${uptime}*
 ╟➢*👥 USUARIOS: ${rtotalreg}*
-╟══════════════════════
+╟═══════════════════
 ╟➢ _${usedPrefix}grupos_
 ╟➢_${usedPrefix}estado_
 ╟➢_${usedPrefix}infobot_
@@ -79,11 +79,11 @@ let str = `
 ╟➢_${usedPrefix}owner_
 ╟➢_${usedPrefix}script_
 ╟➢_Bot_ (uso sin prefijo)*
-╚═══════════════════════
+╚═══════════════════
 
 ╔══❲*UNE UN BOT A TU GRUPO GAY*❳
 ╟➢_${usedPrefix}join *<enlace / link / url>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔════❲*JUEGOS*❳
 ╟➢️ _${usedPrefix}mates *<noob / easy / medium / hard / extreme /impossible /impossible2>*_
@@ -110,7 +110,7 @@ let str = `
 ╟➢️ _${usedPrefix}formarpareja_
 ╟➢️ _${usedPrefix}verdad_
 ╟➢️ _${usedPrefix}reto_
-╚═══════════════════════
+╚════════════════════
 
 ╔════❲*ACTIVAR O DESACTIVAR*❳
 ╟➢ _${usedPrefix}enable *welcome*_
@@ -131,7 +131,7 @@ let str = `
 
 ╔═══❲*REPORTES Y FALLOS*❳
 ╟➢  _${usedPrefix}reporte *<texto>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔════❲*DESCARGAS*❳
 ╟➢ _${usedPrefix}facebook *<enlace / link / url>*_
@@ -162,7 +162,7 @@ let str = `
 ╟➢ _${usedPrefix}igstalk *<nombre de usuario>*_
 ╟➢ _${usedPrefix}igstory *<nombre de usuario>*_
 ╟➢ _${usedPrefix}tiktokstalk *<nombre de usuario>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔════❲*GRUPOS*❳
 ╟➢ _${usedPrefix}add *<numero>*_
@@ -180,7 +180,7 @@ let str = `
 ╟➢ _${usedPrefix}setwelcome *<texto>*_
 ╟➢ _${usedPrefix}setbye *<texto>*_
 ╟➢ _${usedPrefix}hidetag *<texto>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔════❲*CONVERTIDORES*❳
 ╟➢ _${usedPrefix}toimg *<responde a un sticker>*_
@@ -189,7 +189,7 @@ let str = `
 ╟➢ _${usedPrefix}tovideo *<responde a un audio>*_
 ╟➢ _${usedPrefix}tourl *<responde a un video / imagen / audio>*_
 ╟➢ _${usedPrefix}tts es *<texto>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔═══❲*EFECTOS Y LOGOS*❳
 ╟➢  _${usedPrefix}logos *<efecto> <texto>*_
@@ -202,7 +202,7 @@ let str = `
 ╟➢  _${usedPrefix}itssostupid_
 ╟➢  _${usedPrefix}pixelar_
 ╟➢  _${usedPrefix}blur_
-╚═══════════════════════
+╚════════════════════
 
 ╔════❲*RANDOM*❳
 ╟➢ _${usedPrefix}cristianoronaldo_
@@ -252,7 +252,7 @@ let str = `
 ╟➢ _${usedPrefix}sasuke_
 ╟➢ _${usedPrefix}sakura_
 ╟➢ _${usedPrefix}cosplay_
-╚═══════════════════════
+╚════════════════════
 
 ╔══❲*COMANDOS NOPOR +18*❳
 ╟➢ _${usedPrefix}pack_
@@ -286,7 +286,7 @@ let str = `
 ╟➢ _${usedPrefix}nsfwero_
 ╟➢ _${usedPrefix}nsfwfemdom_
 ╟➢ _${usedPrefix}nsfwglass_
-╚═══════════════════════
+╚════════════════════
 
 ╔═════❲*EFECTOS DE AUDIOS*❳
 ╟🤖 *- RESPONDE A UN AUDIO O NOTA DE VOZ*
@@ -302,13 +302,13 @@ let str = `
 ╟➢ _${usedPrefix}slow_
 ╟➢ _${usedPrefix}smooth_
 ╟➢ _${usedPrefix}tupai_
-╚═══════════════════════
+╚════════════════════
 
 ╔═══❲*CHAT ANONIMO*❳
 ╟➢ _${usedPrefix}start_
 ╟➢ _${usedPrefix}next_
 ╟➢ _${usedPrefix}leave_
-╚═══════════════════════
+╚════════════════════
 
 ╔═════❲*BUSCADORES*❳
 ╟➢ _${usedPrefix}xnxxsearch *<texto>*_
@@ -326,7 +326,7 @@ let str = `
 ╟➢ _${usedPrefix}revdl *<texto>*_
 ╟➢ _${usedPrefix}toraccino *<texto>*_
 ╟➢ _${usedPrefix}uapkpro *<texto>*_
-╚═══════════════════════
+╚════════════════════
 ╔════❲*AUDIOS RANDOM*❳
 ╟➢ *ESCRIBE EL TEXTO SIN USAR LO SIGUIENTE  (#, /, *, .),(uso sin prefijo)*
 ╟➢ _A_
@@ -340,6 +340,7 @@ let str = `
 ╟➢ _Calla fan de bts_
 ╟➢ _Corte_
 ╟➢ _Culos asi_
+╟➢ _C mamo_
 ╟➢ _Despierta dormilon_
 ╟➢ _Eh_
 ╟➢ _Eso me sorprende_
@@ -386,12 +387,12 @@ let str = `
 ╟➢ _Wtf y este quien poronga es_
 ╟➢ _Yametekudasai_
 ╟➢ _Yoshi_
-╚═══════════════════════
+╚════════════════════
 
 ╔═══❲*VIDEOS RANDOM*❳
 ╟➢ _Video1_
 ╟➢ _Momento XD_
-╚══════════════════════
+╚═══════════════════
 
 ╔════❲*HERRAMIENTAS*❳
 ╟➢️ _${usedPrefix}afk *<motivo>*_
@@ -403,7 +404,7 @@ let str = `
 ╟➢️ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
 ╟➢️ _${usedPrefix}styletext *<texto>*_
 ╟➢️ _${usedPrefix}traducir *<texto>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔═════❲*RPG-LIMITES-ECONOMIA*❳
 ╟➢ _${usedPrefix}balance_
@@ -419,7 +420,7 @@ let str = `
 ╟➢ _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
 ╟➢ _${usedPrefix}verificar_
 ╟➢ _${usedPrefix}unreg *<numero de serie>*_
-╚═══════════════════════
+╚════════════════════
 
 ╔══════❲*STICKERS*❳
 ╟➢_${usedPrefix}sticker *<responder a imagen o video>*_
@@ -431,11 +432,11 @@ let str = `
 ╟➢_${usedPrefix}semoji *<tipo> <emoji>*_
 ╟➢_${usedPrefix}attp *<texto>*_
 ╟➢_${usedPrefix}attp2 *<texto>*_
-╟➢_${usedPrefix}ttp *<texto>*_
-╟➢_${usedPrefix}ttp2 *<texto>*_
-╟➢_${usedPrefix}ttp3 *<texto>*_
-╟➢_${usedPrefix}ttp4 *<texto>*_
-╟➢_${usedPrefix}ttp5 *<texto>*_
+╟➢_${usedPrefix}attp *<texto>*_
+╟➢_${usedPrefix}attp2 *<texto>*_
+╟➢_${usedPrefix}attp3 *<texto>*_
+╟➢_${usedPrefix}attp4 *<texto>*_
+╟➢_${usedPrefix}attp5 *<texto>*_
 ╟➢_${usedPrefix}pat *<@tag>*_
 ╟➢_${usedPrefix}slap *<@tag>*_
 ╟➢_${usedPrefix}kiss *<@tag>*_
@@ -471,7 +472,7 @@ let str = `
 ╟➢ _${usedPrefix}addprem *<@tag>*_
 ╟➢ _${usedPrefix}delprem *<@tag>*_
 ╟➢ _${usedPrefix}listprem_
-╚════════════════════════
+╚═════════════════════
 `.trim()
 conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/Adolfosempai', 'PAYPAL', 'https://github.com/Adolfo-crazy/BakiBot-MD', 'GITHUB', [
 ['🤑DONAR🤑', '/donasi'],
@@ -485,6 +486,8 @@ conn.sendHydrated2(m.chat, str, wm, pp, 'https://www.paypal.me/Adolfosempai', 'P
 conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m)
 throw e
 }}
+handler.help = ['menu', 'help', '?']
+handler.tags = ['main']
 handler.customPrefix = /menu/
 handler.command = new RegExp
 export default handler
