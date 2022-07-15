@@ -53,4 +53,6 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-### NO HAY SISTEMA
+## `PORPIETARIO DEL BOT` 
+[![ADOLFO ZARAGOZA](https://raw.githubusercontent.com/Adolfo-crazy/BakiBot-MD/main/media/menus/Menu2.jpg)](git clone https://github.com/Adolfo-crazy/BakiBot-MDV2.git)
+```bash
