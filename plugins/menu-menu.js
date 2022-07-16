@@ -329,6 +329,7 @@ let str = `
 ╚════════════════════
 ╔════❲*AUDIOS RANDOM*❳
 ╟➢ *ESCRIBE EL TEXTO SIN USAR LO SIGUIENTE  (#, /, *, .),(uso sin prefijo)*
+╟➢ *PARA VER LOS DEMÁS AUDIOS USA #menu2*
 ╟➢ _A_
 ╟➢ _Ara ara_
 ╟➢ _Baneado_
@@ -365,33 +366,18 @@ let str = `
 ╟➢ _Onichan_
 ╟➢ _Ovedece sempai_
 ╟➢ _Por favor kakaroto_
-╟➢ _Por que nadie me quiere_
-╟➢ _Quitate la ropa piter_
-╟➢ _Salaverga_
-╟➢ _Sayayin_
-╟➢ _Se estan riendo de mi_
-╟➢ _Sexo_
-╟➢ _Sigue de mamon_
-╟➢ _Silencio_
-╟➢ _Siuuu_
-╟➢ _Su nivel de pendejo_
-╟➢ _Solo entendi_
-╟➢ _Te amo_
-╟➢ _Tengo una mexicana_
-╟➢ _Todo bien_
-╟➢ _Troll_
-╟➢ _Traiganle una falda_
-╟➢ _Tunomecabrasaramambiche_
-╟➢ _Usted esta detenido_
-╟➢ _Viernes_
-╟➢ _Wtf y este quien poronga es_
-╟➢ _Yametekudasai_
-╟➢ _Yoshi_
 ╚════════════════════
 
 ╔═══❲*VIDEOS RANDOM*❳
 ╟➢ _Video1_
+╟➢ _Video2_
 ╟➢ _Momento XD_
+╟➢ _Nadie me valora
+╟➢ _Me voy a suicidar_
+╟➢ _Eres mi bebito fiu fiu_
+╟➢ _Soldado caido_
+╟➢ _Tiene la cara de tamal folla_
+╟➢ _Tu y yo asi_
 ╚═══════════════════
 
 ╔════❲*HERRAMIENTAS*❳
@@ -488,8 +474,10 @@ throw e
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.customPrefix = /menu/
-handler.command = new RegExp
+handler.command = /^(menu|allmenu|allm\?)$/i
+//handler.register = true
+handler.exp = 50
+handler.fail = null
 export default handler
 
 const more = String.fromCharCode(8206)

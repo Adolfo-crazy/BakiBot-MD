@@ -2,7 +2,6 @@ import fs from 'fs'
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let text = `
 *INSTALAR EN TERMUX*
-> cd
 > termux-setup-storage
 > apt update 
 > apt upgrade -y

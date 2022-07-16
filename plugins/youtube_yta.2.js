@@ -7,9 +7,9 @@ if (!args || !args[0]) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝚂𝙴𝚁𝚃
 await conn.reply(m.chat, `*_⏳Se esta enviando su audio espera un momento gil_*`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
 title: '𝚁𝙴𝙿𝚁𝙾𝙳𝚄𝙲𝚃𝙾𝚁 𝙳𝙴 𝙰𝚄𝙳𝙸𝙾 𝚅𝟸',
-body: 'ʙʏ ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ',
+body: 'BakiBot-MD',
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
+sourceUrl: `https://github.com/Adolfo-crazy/BakiBot-MD`}}})
 let chat = global.db.data.chats[m.chat]
 const isY = /y(es)/gi.test(args[1])
 const { thumbnail, audio: _audio, title } = await youtubedl(args[0]).catch(async _ => await youtubedlv2(args[0])).catch(async _ => await youtubedlv3(args[0]))

@@ -8,7 +8,7 @@ try {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let name = await conn.getName(m.sender)
 let str = `
-*? Hola _${name}_*
+*👋 Hola _${name}_*
 
 *MENU AUDIOS*
 *- Escribe el texto sin prefijo (#, /, *, .)*
@@ -47,7 +47,6 @@ let str = `
 °✯⃟🔊 _ooo tio_
 °✯⃟🔊 _Onichan_
 °✯⃟🔊 _Ovedece sempai_
-°✯⃟🔊 _Pasito raw_
 °✯⃟🔊 _Por favor escuchen_
 °✯⃟🔊 _Por favor kakaroto_
 °✯⃟🔊 _Por que nadie me quiere_
