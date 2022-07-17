@@ -12,18 +12,18 @@
     "scripts": {
         "start": "node index.js",
         "cli": "node . --optimize_for_size --max_old_space_size=460 index.js",
-        "db": "node . --autocleartmp --db 'mongodb+srv://BrunoSobrino:Akhmad6825@cluster0.mflne.mongodb.net/TheMystic-Bot-MD?retryWrites=true&w=majority'"
+        "db": "node . --autocleartmp --db 'mongodb+srv://Adolfo-crazy:Akhmad6825@cluster0.mflne.mongodb.net/BakiBot-MD?retryWrites=true&w=majority'"
     },
-    "homepage": "https://github.com/BrunoSobrino",
+    "homepage": "https://github.com/Adolfo-crazy",
     "author": {
-        "name": "BrunoSobrino"
+        "name": "Adolfo-crazy"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BrunoSobrino/TheMystic-Bot-MD.git"
+        "url": "git+https://github.com/Adolfo-crazy/BakiBot-MD.git"
     },
     "bugs": {
-        "url": "https://github.com/BrunoSobrino/TheMystic-Bot-MD/issues"
+        "url": "https://github.com/Adolfo-crazy/BakiBot-MD/issues"
     },
     "license": "MIT",
     "dependencies": {
