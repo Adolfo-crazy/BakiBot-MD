@@ -9,7 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.command = /Callate/
-handler.fail = null
-handler.exp = 100
+handler.customPrefix = /Callate/
+handler.command = new RegExp
 export default handler
