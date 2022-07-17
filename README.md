@@ -52,7 +52,5 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > rm -rf session.data.json
 > npm start
 ```
-
-## `PORPIETARIO DEL BOT` 
-[![ADOLFO ZARAGOZA](https://raw.githubusercontent.com/Adolfo-crazy/BakiBot-MD/main/media/menus/Menu2.mp4)](git clone https://github.com/Adolfo-crazy/BakiBot-MDV2.git)
-```bash
+### CREADOR
+<a href="https://github.com/Adolfo-crazy"><img src="https://github.com/Adolfo-crazy.png" width="200" height="200" alt="Adolfo-crazy"/></a>
